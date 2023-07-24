@@ -182,3 +182,13 @@
 			});
 
 })(jQuery);
+
+//JS for visitors count
+const count = document.querySelector(".count-visitors");
+async function updateCount() {
+	let response = await fetch("https://umuqo6fw4h5xkidrgj6uugpjla0irqaf.lambda-url.us-east-1.on.aws/")
+	let data = await response.json();
+	count.innerHTML = `&copy; Nikita Litovchenko. All Rights Reserved.<br>Let's grab a coffee with the other ${data} people who visited this website.`;
+}
+
+updateCount();

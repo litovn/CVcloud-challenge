@@ -2,11 +2,11 @@
 
 # The Cloud Resume Challenge
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-This project starts as an [online resume](https://resume.nlitovchenko.eu/) for [Nikita Litovchenko](https://github.com/litovn). This repo is my attempt at the [The Cloud Resume Challenge (AWS Edition)](https://cloudresumechallenge.dev/docs/the-challenge/aws/) created by [Forrest Brazeal](https://forrestbrazeal.com/).
+  This project starts as an [online resume](https://resume.nlitovchenko.eu/) for [Nikita Litovchenko](https://github.com/litovn). This repo is my attempt at the [The Cloud Resume Challenge (AWS Edition)](https://cloudresumechallenge.dev/docs/the-challenge/aws/) created by [Forrest Brazeal](https://forrestbrazeal.com/).
 
 The project is composed of a [responsive website](front-end), a [Lambda function in Python](lambda), and [Infrastructure as Code with Terraform](terraform).
 
-From the [challenge website](https://cloudresumechallenge.dev/docs/faq/#what-is-the-cloud-resume-challenge),
+From the [challenge website](https://cloudresumechallenge.dev/docs/faq/#what-is-the-cloud-resume-challenge):
 > The Cloud Resume Challenge is a hands-on project designed to help you bridge the gap from cloud certification to cloud job. It incorporates many skills that real cloud and DevOps engineers use in their daily work.
 
 ## Front-End

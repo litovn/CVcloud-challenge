@@ -1,4 +1,4 @@
-![Cloud Resume Challenge results](./docs/laptop_site.png)
+![Cloud Resume Challenge results](./assets/laptop_site.png)
 
 # The Cloud Resume Challenge
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -7,7 +7,7 @@ This project starts as an [online resume](https://resume.nlitovchenko.eu/) for [
 The project is composed of a [responsive website](front-end), a [Lambda function in Python](lambda), and [Infrastructure as Code with Terraform](terraform).
 
 From the [challenge website](https://cloudresumechallenge.dev/docs/faq/#what-is-the-cloud-resume-challenge),
-> The Cloud Resume Challenge is a hands-on project designed to help you bridge the gap from cloud certification to cloud job. It incorporates many of the skills that real cloud and DevOps engineers use in their daily work.
+> The Cloud Resume Challenge is a hands-on project designed to help you bridge the gap from cloud certification to cloud job. It incorporates many skills that real cloud and DevOps engineers use in their daily work.
 
 ## Front-End
 The front end is developed using S3 to store HTML5, CSS3, and JavaScript files. A domain was obtained through an external domain provider, and a hosted zone was created on Route 53 to configure the DNS used by the domain. After that a certificate was issued by the ACM which was then validated through a CNAME entry, ensuring a secure HTTPS connection between the client and the website, establishing a TLS connection for enhanced security. Route 53 directs internet traffic to a CloudFront distribution which retrieves the files from the S3 bucket and serves them to the client.
@@ -24,14 +24,14 @@ Connecting CloudWatch to the API gave me logs that allowed me to troubleshoot th
 ## Infrastructure as Code & CI/CD 
 To streamline the development and deployment of my cloud resume website, I have implemented an automation process using GitHub Actions such that when you push new website code, the S3 bucket automatically gets updated. 
 
-I delved into using Terraform to provision the necessary infrastructure for the configuration of the API resources. A lot of time was invested in learning this tool, and through the official documentation, the resources were not that difficult to set up. Even though this approach was not executed, I believe that provisioning and deploying everything using Terraform would be a better route than the one I took.
+I delved into using Terraform to provision the necessary infrastructure for the configuration of the API resources. A lot of time was invested in learning this tool, and through the official documentation, the resources were not that difficult to set up. Even though this approach was not executed, I believe provisioning and deploying everything using Terraform would be a better route than the one I took.
 
 ## AWS architecture Diagram
-![Cloud Resume Challenge results](./docs/arch.png)
+![Cloud Resume Challenge results](./assets/arch.png)
 
 ## Areas for improvement
 - Include some tests to test the Lambda functionalities. 
-- Improve API to read and memorize hashed ip, to distinguishing repeated visitors. 
+- Improve API to read and memorize hashed ip, to distinguish repeated visitors. 
 - Fully implement the HashiCorp Terraform for future deployment on other cloud providers.
 
 

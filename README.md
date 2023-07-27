@@ -1,4 +1,4 @@
-![Cloud Resume Challenge results](./assets/laptop_site.png)
+![Cloud Resume Challenge results](/assets/laptop_site.png)
 
 # The Cloud Resume Challenge
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -27,7 +27,7 @@ To streamline the development and deployment of my cloud resume website, I have 
 I delved into using Terraform to provision the necessary infrastructure for the configuration of the API resources. A lot of time was invested in learning this tool, and through the official documentation, the resources were not that difficult to set up. Even though this approach was not executed, I believe provisioning and deploying everything using Terraform would be a better route than the one I took.
 
 ## AWS architecture Diagram
-![Cloud Resume Challenge results](./assets/arch.png)
+![Cloud Resume Challenge results](/assets/arch.png)
 
 ## Areas for improvement
 - Include some tests to test the Lambda functionalities. 

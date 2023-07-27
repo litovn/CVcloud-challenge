@@ -1,4 +1,4 @@
-![Cloud Resume Challenge results](./docs/laptop-site.png)
+![Cloud Resume Challenge results](./docs/laptop_site.png)
 
 # The Cloud Resume Challenge
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)

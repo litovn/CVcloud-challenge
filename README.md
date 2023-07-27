@@ -2,7 +2,8 @@
 
 # The Cloud Resume Challenge
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-  This project starts as an [online resume](https://resume.nlitovchenko.eu/) for [Nikita Litovchenko](https://github.com/litovn). This repo is my attempt at the [The Cloud Resume Challenge (AWS Edition)](https://cloudresumechallenge.dev/docs/the-challenge/aws/) created by [Forrest Brazeal](https://forrestbrazeal.com/).
+
+This project starts as an [online resume](https://resume.nlitovchenko.eu/) for [Nikita Litovchenko](https://github.com/litovn). This repo is my attempt at the [The Cloud Resume Challenge (AWS Edition)](https://cloudresumechallenge.dev/docs/the-challenge/aws/) created by [Forrest Brazeal](https://forrestbrazeal.com/).
 
 The project is composed of a [responsive website](front-end), a [Lambda function in Python](lambda), and [Infrastructure as Code with Terraform](terraform).
 
@@ -34,5 +35,4 @@ I delved into using Terraform to provision the necessary infrastructure for the 
 - Improve API to read and memorize hashed ip, to distinguish repeated visitors. 
 - Fully implement the HashiCorp Terraform for future deployment on other cloud providers.
 
-
-  In conclusion, this short journey has been nothing short of incredible, filled with invaluable learning experiences. 
+In conclusion, this short journey has been nothing short of incredible, filled with invaluable learning experiences. 
